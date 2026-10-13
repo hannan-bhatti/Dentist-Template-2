@@ -1,0 +1,132 @@
+.deskContainer {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 990;
+}
+
+.floatingTrigger {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0284c7 0%, #0f172a 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(2, 132, 199, 0.45);
+  position: relative;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.pulseEffect {
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  border: 2px solid #38bdf8;
+  animation: pulseAnim 2.2s infinite;
+}
+
+@keyframes pulseAnim {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 0; }
+  100% { transform: scale(0.95); opacity: 0; }
+}
+
+.deskCard {
+  position: absolute;
+  bottom: 72px;
+  right: 0;
+  width: 340px;
+  background: var(--surface-white);
+  border-radius: 18px;
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.2);
+  overflow: hidden;
+}
+
+.cardHeader {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.livePing {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #22c55e;
+}
+
+.cardTitle {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.cardSubtitle {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+.closeBtn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cardBody {
+  padding: 1.25rem;
+}
+
+.actionList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.actionBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-subtle);
+  transition: all 0.2s ease;
+}
+
+.actionBtn:hover {
+  background: var(--primary-light);
+  border-color: var(--primary);
+}
+
+.actionIcon {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.btnTitle {
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--text-heading);
+}
+
+.btnSub {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}

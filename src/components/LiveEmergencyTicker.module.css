@@ -1,0 +1,96 @@
+.tickerBar {
+  background: #090f1d;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(2, 132, 199, 0.25);
+  font-size: 0.8125rem;
+  padding: 0.55rem 0;
+}
+
+.tickerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.statusLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.radarWrapper {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radarDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+}
+
+.radarPing {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #22c55e;
+  animation: pingAnimation 2s infinite;
+}
+
+@keyframes pingAnimation {
+  0% { transform: scale(0.6); opacity: 1; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
+.erBadge {
+  background: rgba(239, 68, 68, 0.2);
+  color: #f87171;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  font-weight: 700;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  font-size: 0.75rem;
+}
+
+.waitTimeBadge {
+  background: rgba(2, 132, 199, 0.2);
+  color: #38bdf8;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.divider {
+  color: #475569;
+}
+
+.statusRight {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.priorityLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #38bdf8;
+  font-weight: 700;
+}
+
+.priorityLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .tickerBar {
+    display: none;
+  }
+}
