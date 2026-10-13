@@ -1,170 +1,170 @@
 export const clinicConfig = {
   name: "Apex Medical Institute",
-  tagline: "Precision Diagnostics & Multispecialty Hospital",
+  tagline: "Modern Healthcare & Family Diagnostic Center",
   phone: "+92 (21) 3529-8800",
   emergencyHotline: "+92 (21) 3529-8899",
   whatsappNumber: "+923007788800",
-  address: "Apex Clinical Campus, Main Shahrah-e-Faisal, Karachi",
+  address: "Main Shahrah-e-Faisal, Karachi",
   lahoreBranch: "Jail Road, Main Gulberg, Lahore",
-  hours: "Consultant OPD: 8:00 AM – 9:00 PM | Emergency & Diagnostic Labs: 24/7",
+  hours: "Doctor Visits: 8:00 AM – 9:00 PM | Emergency & Lab Tests: Open 24/7",
   calComLink: "https://cal.com/apex-institute/consultation",
   googleRating: "4.94",
   reviewCount: "1,890+"
 };
 
 export const heroData = {
-  headline: "Where Diagnostic Precision Meets Compassionate Patient Care.",
-  subheadline: "Integrating advanced European robotic imaging, automated Roche molecular diagnostics, and board-certified consultants across Cardiology, Dental, Gynecology, Physiotherapy, and Family Medicine.",
-  badge: "⚡ 24/7 Acute Medical Emergency • Same-Day Specialized OPD Consultations",
-  primaryCtaText: "Book Specialist Consultation",
-  secondaryCtaText: "Order Home Diagnostic Labs",
-  ratingText: "4.94/5 Rating from 1,890+ Verified Reviews & Hospital Admissions"
+  headline: "Complete Healthcare for You & Your Whole Family.",
+  subheadline: "Get accurate lab tests, expert doctor consultations, gentle dental care, and pain relief — all under one roof with fast digital reports.",
+  badge: "⚡ Open 24/7 For Emergencies • Same-Day Appointments Available",
+  primaryCtaText: "Book a Doctor Visit",
+  secondaryCtaText: "Book Home Lab Test",
+  ratingText: "4.94/5 Rating from 1,890+ Happy Patients"
 };
 
 export const specialtiesData = [
   {
     id: "cardiology",
-    title: "Interventional & Preventive Cardiology",
-    shortTitle: "Cardiology",
+    title: "Heart Care & Checkups",
+    shortTitle: "Heart Care",
     leadDoctor: "Prof. Dr. Tariq Ashraf, MBBS, FCPS, FACC (USA)",
-    tagline: "Advanced Non-Invasive Cardiac Telemetry & Angiographic Guidance",
-    description: "Equipped with Philips 3D Epiq echocardiography, 24-hour ambulatory Holter rhythm analysis, CT coronary angiography, and comprehensive post-infarct cardiac rehabilitation.",
+    tagline: "Clear Heart Health Tests & Preventive Guidance",
+    description: "Detailed heart health screenings, ECG, ultrasound scans of the heart, and personalized lifestyle plans to keep your heart strong.",
     keyProcedures: [
-      "Philips 3D Color Doppler Echocardiography",
-      "Coronary Calcium & CT Angiography Screen",
-      "Continuous Digital Arrhythmia Holter",
-      "Executive Lipid Subfractionation Matrix"
+      "Heart Ultrasound (Echocardiogram)",
+      "24-Hour Heart Rhythm Monitoring",
+      "Blood Pressure & Cholesterol Checks",
+      "Preventive Heart Care Plans"
     ],
-    duration: "45 min clinical examination",
+    duration: "45 min consultation",
     priceFrom: "Rs. 8,500",
-    badge: "Accredited Heart Institute"
+    badge: "Heart Specialist Center"
   },
   {
     id: "dental",
-    title: "Guided Implantology & Aesthetic Dentistry",
-    shortTitle: "Dental Surgery",
+    title: "Gentle Dental Care & Smile Design",
+    shortTitle: "Dental Care",
     leadDoctor: "Dr. Zeeshan Haider, BDS, MFDSRCS (Edinburgh), FICD",
-    tagline: "Computer-Guided 3D Oral Reconstruction & Painless Micro-Anesthesia",
-    description: "Featuring Dentsply Sirona 3D CBCT imaging, computer-navigated dental implants, laser periodontal decontamination, and ultra-thin Swiss ceramic restorations.",
+    tagline: "Pain-Free Dental Treatments & Modern Implants",
+    description: "Experience comfortable, pain-free dental checkups, gentle teeth cleaning, natural-looking implants, and cosmetic teeth brightening.",
     keyProcedures: [
-      "Computer-Guided 3D Titanium Dental Implants",
-      "Micron-Thin Porcelain Veneers & Full Arch",
-      "Laser Periodontal & Deep Biofilm Therapy",
-      "Wand™ Computer-Regulated Painless Injections"
+      "Comfortable Dental Implants",
+      "Teeth Whitening & Smile Makeovers",
+      "Gentle Deep Cleaning & Gum Care",
+      "Pain-Free Numbing Technology"
     ],
-    duration: "45–60 min clinical session",
+    duration: "45–60 min visit",
     priceFrom: "Rs. 7,500",
-    badge: "German 3D Scan Equipped"
+    badge: "Pain-Free Guarantee"
   },
   {
     id: "gynea",
-    title: "Maternal-Fetal Medicine & Gynecology",
-    shortTitle: "Gynecology",
+    title: "Women's Health & Pregnancy Care",
+    shortTitle: "Women's Health",
     leadDoctor: "Dr. Naila Zahid, MBBS, FRCOG (London), FCPS",
-    tagline: "Specialized Obstetrics, High-Risk Pregnancy & Minimally Invasive Care",
-    description: "Private female clinical suites offering Voluson E10 4D anomaly fetal mapping, high-risk obstetric monitoring, reproductive endocrinology, and modern gynecological laparoscopy.",
+    tagline: "Private Care For Every Stage of Motherhood",
+    description: "Gentle maternity care, clear 4D baby ultrasounds, fertility guidance, and confidential checkups with experienced female doctors.",
     keyProcedures: [
-      "Voluson HD Live 4D Fetal Anomaly Ultrasound",
-      "High-Risk Prenatal & Obstetric Monitoring",
-      "PCOS & Reproductive Hormonal Therapy",
-      "Digital Colposcopy & Cervical Health Screen"
+      "Clear 4D Baby Ultrasound Scans",
+      "Complete Pregnancy & Prenatal Checkups",
+      "Hormone & Period Health Consultations",
+      "Routine Women's Health Screenings"
     ],
-    duration: "40 min private consultation",
+    duration: "40 min private visit",
     priceFrom: "Rs. 7,000",
-    badge: "100% Female Clinical Team"
+    badge: "100% Female Doctor Team"
   },
   {
     id: "physiotherapy",
-    title: "Orthopedic & Sports Spine Rehabilitation",
+    title: "Physiotherapy & Pain Relief",
     shortTitle: "Physiotherapy",
     leadDoctor: "Dr. Bilal Aslam, DPT, CMP (USA), Post-Grad Sports Rehab",
-    tagline: "Computerized Spinal Decompression & High-Performance Mobility",
-    description: "State-of-the-art physiotherapy institute utilizing Chatanooga motorized spinal decompression, Class IV therapeutic deep-tissue laser, shockwave therapy, and post-surgical ACL recovery.",
+    tagline: "Non-Surgical Relief for Back, Neck & Joint Pain",
+    description: "Gentle hands-on therapy, guided movement exercises, and modern equipment to help you recover quickly from back pain, stiffness, and sports injuries.",
     keyProcedures: [
-      "Motorized Triton Spinal Decompression",
-      "Class IV Deep Tissue Laser Biostimulation",
-      "Sports Injury ACL & Rotator Cuff Rehab",
-      "Clinical Dry Needling & Trigger Myotherapy"
+      "Spine & Neck Pain Relief Therapy",
+      "Deep Muscle Healing Therapy",
+      "Sports Injury & Joint Recovery",
+      "Posture Improvement & Flexibility Training"
     ],
-    duration: "60 min clinical therapy",
+    duration: "60 min therapy session",
     priceFrom: "Rs. 5,500",
-    badge: "Hydrotherapy & Decompression"
+    badge: "Pain Relief Center"
   },
   {
     id: "labs",
-    title: "Automated Roche Molecular Diagnostics",
-    shortTitle: "Diagnostic Labs",
+    title: "Diagnostic Lab Tests (Clinic or Home)",
+    shortTitle: "Lab Tests",
     leadDoctor: "Prof. Dr. M. Arshad, MBBS, PhD (Pathology), FRCPath",
-    tagline: "Fully Automated Roche Cobas Chemistry with Under 4-Hour Digital Results",
-    description: "ISO 15189 certified automated laboratory delivering critical cardiac markers, tumor pathology, comprehensive hormonal panels, and rapid sterile doorstep sample collection fleet.",
+    tagline: "Accurate Blood Tests with Fast Online Reports",
+    description: "Quick, hygienic blood sample collection at our modern clinic or right at your doorstep, with digital reports sent to your phone within 2–4 hours.",
     keyProcedures: [
-      "Full Executive Blood Chemistry (72 Parameters)",
-      "High-Sensitivity Troponin-I & NT-proBNP",
-      "Quantitative Thyroid & Hormone Battery",
-      "Sterile Home Phlebotomy Fleet Dispatch"
+      "Full Body Health Blood Check (72 Tests)",
+      "Fast Blood Sugar & Cholesterol Panels",
+      "Thyroid & Vitamin D / B12 Tests",
+      "Free Home Sample Collection Service"
     ],
-    duration: "Digital results in 2–4 hours",
+    duration: "Online results in 2–4 hours",
     priceFrom: "Rs. 3,500",
-    badge: "ISO 15189 Accredited"
+    badge: "Certified Testing Lab"
   },
   {
     id: "family-phy",
-    title: "Internal Medicine & Chronic Care Center",
-    shortTitle: "Family Medicine",
+    title: "Family Doctor & General Health",
+    shortTitle: "Family Doctor",
     leadDoctor: "Dr. Haroon Rasheed, MBBS, MRCP (UK), FACP (USA)",
-    tagline: "Evidence-Based Primary Care, Diabetes Reversal & Adult Health",
-    description: "Continuity-focused medical consultations managing hypertension, metabolic syndrome, diabetic glycemic control, respiratory allergies, and annual executive preventive assessments.",
+    tagline: "Everyday Illnesses & Long-Term Health Support",
+    description: "Friendly family physicians helping you manage everyday health concerns, diabetes control, blood pressure, flu recovery, and seasonal checkups.",
     keyProcedures: [
-      "Comprehensive Adult Executive Health Audit",
-      "Intensive Diabetes Glycemic Reversal Program",
-      "Cardiometabolic Risk Assessment",
-      "Vaccination & Preventive Longevity Strategy"
+      "Complete Annual Health Checkup",
+      "Practical Diabetes Care & Guidance",
+      "Blood Pressure & Allergy Management",
+      "Family Health & Vaccination Advice"
     ],
-    duration: "30-45 min consultation",
+    duration: "30-45 min visit",
     priceFrom: "Rs. 5,000",
-    badge: "Same-Day Priority Access"
+    badge: "Same-Day Walk-Ins Welcome"
   }
 ];
 
 export const labCatalog = [
   {
     id: "cardiac-marker-panel",
-    name: "Comprehensive Cardiac Biomarker Screen",
-    department: "Cardiology & Labs",
+    name: "Complete Heart Health Blood Test",
+    department: "Heart Care & Labs",
     turnaround: "2 Hours",
     price: 14500,
     testsCount: 6,
-    testsList: "hs-Troponin I, NT-proBNP, hs-CRP, Lipid Profile, D-Dimer, HbA1c",
+    testsList: "Heart Enzyme Check, Cholesterol Profile, Blood Sugar, Inflammation Marker",
     homeCollectionAvailable: true
   },
   {
     id: "executive-72-profile",
-    name: "Executive 72-Parameter Master Health Battery",
-    department: "Molecular Labs",
+    name: "Full Body Master Health Check (72 Tests)",
+    department: "Health Labs",
     turnaround: "4 Hours",
     price: 24500,
     testsCount: 72,
-    testsList: "CBC, Liver Function (LFT), Renal Function (RFT), Lipids, Thyroid (TSH/FT4), Vitamin D, B12, Iron Matrix, Uric Acid",
+    testsList: "Complete Blood Count, Liver Function, Kidney Function, Cholesterol, Thyroid, Vitamin D & B12, Iron, Uric Acid",
     homeCollectionAvailable: true
   },
   {
     id: "hormone-pcos-panel",
-    name: "Advanced Female Hormonal & Well-Woman Battery",
-    department: "Gynecology & Labs",
+    name: "Women's Wellness & Hormone Check",
+    department: "Women's Health & Labs",
     turnaround: "4 Hours",
     price: 18500,
     testsCount: 8,
-    testsList: "FSH, LH, Prolactin, Serum Testosterone, AMH (Ovarian Reserve), Fasting Insulin, TSH, Estrogen",
+    testsList: "Key Female Hormones, Thyroid, Fasting Insulin, Vitamin Levels",
     homeCollectionAvailable: true
   },
   {
     id: "diabetes-metabolic-profile",
-    name: "Metabolic & Diabetes Comprehensive Battery",
+    name: "Complete Diabetes & Blood Sugar Test",
     department: "Family Medicine & Labs",
     turnaround: "3 Hours",
     price: 8500,
     testsCount: 5,
-    testsList: "HbA1c (Glycated Hemoglobin), Fasting Blood Glucose, Fasting Insulin (HOMA-IR), Microalbuminuria, Lipid Screen",
+    testsList: "3-Month Blood Sugar (HbA1c), Fasting Sugar, Insulin Level, Kidney Screen, Cholesterol",
     homeCollectionAvailable: true
   }
 ];
@@ -173,51 +173,51 @@ export const doctorsData = [
   {
     id: "dr-tariq",
     name: "Prof. Dr. Tariq Ashraf",
-    specialty: "Consultant Cardiologist & Heart Center Director",
+    specialty: "Heart Care Specialist",
     department: "cardiology",
-    credentials: "MBBS • FCPS (Cardiology) • Fellow American College of Cardiology (FACC)",
-    experience: "26+ Years Senior Clinical Experience",
-    bio: "Pioneering non-invasive and interventional cardiac imaging in Pakistan, Prof. Tariq specializes in preventive cardiology, complex hypertension, and 3D echocardiography.",
+    credentials: "MBBS • FCPS (Cardiology) • Fellow American College of Cardiology (USA)",
+    experience: "26+ Years Experience",
+    bio: "With over two decades of clinical experience in Pakistan and internationally, Prof. Tariq specializes in preventive heart wellness, blood pressure control, and heart ultrasound checkups.",
     image: "/images/dr-tariq.jpg"
   },
   {
     id: "dr-zeeshan",
     name: "Dr. Zeeshan Haider",
-    specialty: "Head of Oral & Maxillofacial Implantology",
+    specialty: "Senior Dental Surgeon & Implant Specialist",
     department: "dental",
-    credentials: "BDS • MFDSRCS (Royal College of Surgeons Edinburgh) • FICD",
-    experience: "16+ Years Implant Excellence",
-    bio: "A leading authority in computer-guided 3D implant placement and full arch smile restorations, delivering zero-discomfort surgical treatments with British accreditation.",
+    credentials: "BDS • Royal College of Surgeons (Edinburgh) • FICD",
+    experience: "16+ Years Experience",
+    bio: "Dr. Zeeshan is dedicated to gentle, comfortable dentistry. He helps patients restore bright, confident smiles through painless dental implants and cosmetic treatments.",
     image: "/images/dr-zeeshan.jpg"
   },
   {
     id: "dr-naila",
     name: "Dr. Naila Zahid",
-    specialty: "Consultant Obstetrician & Gynecologist",
+    specialty: "Senior Gynecologist & Maternity Specialist",
     department: "gynea",
-    credentials: "MBBS • FRCOG (London) • FCPS (Obstetrics & Gynaecology)",
-    experience: "22+ Years Maternal-Fetal Care",
-    bio: "Fellow of the Royal College of Obstetricians and Gynaecologists (UK), Dr. Naila leads our female clinical center with deep expertise in 4D fetal ultrasound and high-risk pregnancy.",
+    credentials: "MBBS • FRCOG (London) • FCPS",
+    experience: "22+ Years Experience",
+    bio: "A trusted women's healthcare expert trained in the UK, Dr. Naila guides mothers through safe pregnancies and provides compassionate care for all women's health needs.",
     image: "/images/dr-naila.jpg"
   },
   {
     id: "dr-bilal",
     name: "Dr. Bilal Aslam",
-    specialty: "Director of Physical Therapy & Spine Center",
+    specialty: "Senior Physiotherapist & Spine Care Specialist",
     department: "physiotherapy",
-    credentials: "DPT • Certified Mulligan Practitioner (CMP, USA) • Post-Grad Sports Rehab",
-    experience: "14+ Years Musculoskeletal Rehab",
-    bio: "Specializing in motorized non-surgical spinal decompression, acute sports injuries, and posture science, Dr. Bilal has restored thousands of patients to pain-free mobility.",
+    credentials: "DPT • Certified Specialist (USA) • Sports Rehab Expert",
+    experience: "14+ Years Experience",
+    bio: "Dr. Bilal helps patients overcome back pain, joint stiffness, and sports injuries using safe, non-surgical physical therapy and gentle rehabilitation techniques.",
     image: "/images/dr-bilal.jpg"
   },
   {
     id: "dr-haroon",
     name: "Dr. Haroon Rasheed",
-    specialty: "Consultant Physician & Internal Medicine Specialist",
+    specialty: "Family Physician & Internal Medicine Specialist",
     department: "family-phy",
-    credentials: "MBBS • MRCP (UK) • Fellow American College of Physicians (FACP)",
-    experience: "19+ Years Internal Medicine",
-    bio: "Trained in the UK and USA, Dr. Haroon focuses on cardiometabolic longevity, complex diagnostic dilemmas, and intensive diabetes reversal.",
+    credentials: "MBBS • MRCP (UK) • Fellow American College of Physicians (USA)",
+    experience: "19+ Years Experience",
+    bio: "Trained in the UK and USA, Dr. Haroon provides comprehensive everyday healthcare for adults, focusing on diabetes management, healthy living, and long-term vitality.",
     image: "/images/dr-haroon.jpg"
   }
 ];
@@ -225,45 +225,45 @@ export const doctorsData = [
 export const trustSignals = [
   {
     author: "Engr. Salman Farooqi",
-    location: "Navy Housing, Clifton, Karachi",
-    specialty: "Cardiology & Labs",
+    location: "Clifton, Karachi",
+    specialty: "Heart Care & Labs",
     rating: 5,
-    reviewText: "I presented to Apex with atypical chest tightness. Within 20 minutes, their cardiology team completed a 12-lead digital ECG and cardiac biomarker screen. Prof. Tariq's prompt clinical acumen and reassuring manner averted a major incident. Truly world-class.",
+    reviewText: "I visited Apex when I felt chest discomfort. Within 20 minutes, their team did an ECG and blood tests. Dr. Tariq was very reassuring and explained everything in simple terms. I felt completely cared for.",
     source: "Verified Patient Review"
   },
   {
     author: "Dr. Maham Alvi",
-    location: "Main Boulevard, Gulberg, Lahore",
-    specialty: "Gynecology & 4D Ultrasound",
+    location: "Gulberg, Lahore",
+    specialty: "Women's Health & Ultrasound",
     rating: 5,
-    reviewText: "The Voluson 4D anomaly scan with Dr. Naila Zahid was extraordinarily detailed. The clinical ambiance is spotless, modern, and completely professional. Every step was explained with utmost warmth and dignity.",
-    source: "Verified Doctor Patient"
+    reviewText: "The 4D baby scan with Dr. Naila Zahid was wonderful. The clinic is spotless, welcoming, and very private. She answered all our questions patiently and made us feel so comfortable.",
+    source: "Verified Patient Review"
   },
   {
     author: "Zubair Hashmi",
-    location: "PECHS Block 6, Karachi",
-    specialty: "Physiotherapy & Spine Rehab",
+    location: "PECHS, Karachi",
+    specialty: "Physiotherapy & Back Pain",
     rating: 5,
-    reviewText: "Two neurosurgeons had advised surgery for my L4-L5 disc protrusion. Dr. Bilal's computerized spinal decompression program eliminated my severe radiculopathy within 4 weeks. I am walking 5km daily now pain-free.",
+    reviewText: "I had severe back pain for months. Dr. Bilal's physical therapy sessions helped me recover completely without needing surgery. I am walking daily now without any pain.",
     source: "Verified Patient Review"
   }
 ];
 
 export const faqData = [
   {
-    question: "How rapidly can a home blood sample collection be dispatched to my residence?",
-    answer: "Our certified phlebotomy rapid dispatch team operates across Karachi and Lahore. Once booked online or via WhatsApp, a temperature-controlled sample collection technician arrives at your home within 60 to 90 minutes. Digital lab reports are delivered to your portal within 2 to 4 hours."
+    question: "How quickly can a lab technician collect blood samples at my home?",
+    answer: "Our certified lab team arrives at your home within 60 to 90 minutes anywhere across Karachi and Lahore. Your test reports are sent straight to your phone within 2 to 4 hours."
   },
   {
-    question: "Do you offer emergency medical consultations and same-day specialist OPD slots?",
-    answer: "Yes. Our Acute Medical Care and Emergency Triage Center is operational 24/7. In addition, our consultant clinics reserve priority daily slots across Cardiology, Dental Trauma, Gynecology, and Internal Medicine."
+    question: "Do you have emergency care and same-day doctor appointments?",
+    answer: "Yes! Our emergency care center is open 24 hours a day, 7 days a week. We also keep same-day slots available every day for heart care, dental emergencies, women's health, and family doctors."
   },
   {
-    question: "Are your diagnostic laboratories ISO 15189 accredited and standardized with European benchmarks?",
-    answer: "Yes. Apex Laboratories operates under strict ISO 15189 molecular guidelines, utilizing fully automated Roche Cobas, Sysmex, and bioMérieux diagnostic platforms with internal daily controls and external EQAS verification from the UK."
+    question: "Are your lab test reports reliable and accurate?",
+    answer: "Yes. Our lab uses internationally certified testing equipment with daily quality checks to guarantee you receive 100% accurate, dependable results every time."
   },
   {
-    question: "Do you accept health insurance and corporate medical panels?",
-    answer: "We partner with all major private healthcare insurers (Jubilee Life, EFU Health, Adamjee, TPL, Pak-Qatar Takaful, and Askari Health). Direct cashless admission and itemized claims support are provided by our corporate desk."
+    question: "Do you accept health insurance?",
+    answer: "Yes, we work with all major health insurance providers (including Jubilee, EFU, Adamjee, TPL, and Askari). Our team will gladly help you with quick cashless approvals and claim paperwork."
   }
 ];

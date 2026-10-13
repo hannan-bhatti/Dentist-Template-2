@@ -26,26 +26,26 @@ export function CardioRiskCalculator() {
     if (score >= 5) {
       return {
         riskTier: 'elevated',
-        badgeText: 'Elevated Risk Tier',
+        badgeText: 'Higher Attention Needed',
         colorBg: 'linear-gradient(135deg, #991b1b 0%, #0f172a 100%)',
-        title: 'Priority Cardiovascular Workup Recommended',
-        desc: 'Based on your combination of risk factors, an early 3D echocardiogram, 12-lead digital ECG, and apolipoprotein lipid evaluation are strongly advised.'
+        title: 'We Recommend a Routine Heart Checkup',
+        desc: 'Based on your answers, a quick blood pressure check, ECG, and routine cholesterol test with our doctor will help keep your heart healthy and safe.'
       };
     } else if (score >= 3) {
       return {
         riskTier: 'moderate',
-        badgeText: 'Moderate Vigilance Tier',
+        badgeText: 'Moderate Risk',
         colorBg: 'linear-gradient(135deg, #b45309 0%, #0f172a 100%)',
-        title: 'Preventive Cardiac Review Recommended',
-        desc: 'You exhibit manageable risk factors. An annual non-invasive screening and metabolic health review will help prevent arterial plaque buildup.'
+        title: 'Mild Risk Factors to Keep an Eye On',
+        desc: 'Your risk is moderate. Simple lifestyle tweaks, light regular walking, and an annual checkup will help maintain good heart health.'
       };
     } else {
       return {
         riskTier: 'optimal',
-        badgeText: 'Optimal / Low Risk Tier',
+        badgeText: 'Great Health Profile',
         colorBg: 'linear-gradient(135deg, #0284c7 0%, #0f172a 100%)',
-        title: 'Favorable Cardiovascular Profile',
-        desc: 'Your self-reported parameters reflect solid health stewardship. Maintain routine annual executive checkups to sustain longevity.'
+        title: 'Your Heart Looks In Good Shape',
+        desc: 'Keep up your healthy daily habits! A routine yearly checkup is all you need to stay in top shape.'
       };
     }
   }, [ageGroup, bpStatus, familyHistory, exercise]);
@@ -55,11 +55,11 @@ export function CardioRiskCalculator() {
       <div className={styles.screenerHeader}>
         <span className="section-tag">
           <HeartPulse size={14} style={{ display: 'inline', marginRight: 4 }} />
-          Clinical Prevention Algorithm
+          Free Health Tool
         </span>
-        <h2 className="section-title">60-Second Cardiovascular &amp; Metabolic Risk Screener</h2>
+        <h2 className="section-title">Quick 60-Second Heart Health Check</h2>
         <p className="section-subtitle">
-          Assess your baseline risk for hypertension, arterial plaque, and metabolic strain. Receive personalized guidance from our Cardiology Department.
+          Answer 4 quick questions to see where you stand and get simple, friendly guidance from our heart specialists.
         </p>
       </div>
 

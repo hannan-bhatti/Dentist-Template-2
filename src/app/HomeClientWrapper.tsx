@@ -72,8 +72,8 @@ export function HomeClientWrapper({
               </div>
 
               <h1 className={styles.heroHeadline}>
-                Where Diagnostic Precision Meets{' '}
-                <span className={styles.heroHeadlineGradient}>Rapid Clinical Recovery.</span>
+                Complete Healthcare for You &amp;{' '}
+                <span className={styles.heroHeadlineGradient}>Your Whole Family.</span>
               </h1>
 
               <p className={styles.heroSubheadline}>
@@ -97,7 +97,7 @@ export function HomeClientWrapper({
                     <Star key={i} size={16} fill="#0284c7" stroke="#0284c7" />
                   ))}
                 </div>
-                <span><strong>4.94/5 Rating</strong> from 1,890+ Hospital Admissions &amp; Diagnostic Patients</span>
+                <span><strong>4.9/5 Rating</strong> from over 2,000+ Happy Patients</span>
               </div>
             </motion.div>
 
@@ -112,8 +112,8 @@ export function HomeClientWrapper({
                   <Microscope size={20} />
                 </div>
                 <div>
-                  <div className={styles.floatingCardTitle}>Automated Roche Cobas Lab</div>
-                  <div className={styles.floatingCardSub}>&lt; 4-Hour Digital Results Portal</div>
+                  <div className={styles.floatingCardTitle}>Fast Digital Lab Reports</div>
+                  <div className={styles.floatingCardSub}>Results to your phone in 4 hours</div>
                 </div>
               </div>
 
@@ -121,20 +121,20 @@ export function HomeClientWrapper({
                 <div className={styles.visualInner}>
                   <span className={styles.visualPill}>
                     <Activity size={13} />
-                    High-Tech Clinical Center
+                    Modern Medical Center
                   </span>
                   <h3 style={{ fontSize: '1.75rem', lineHeight: 1.3 }}>
-                    Multi-Disciplinary Medical Institute &amp; 24/7 Diagnostics
+                    All Your Healthcare Needs in One Friendly Place
                   </h3>
                   <p style={{ fontSize: '0.88rem', color: '#94a3b8', maxWidth: 360 }}>
-                    Interventional Cardiology • Computerized Guided Dental • Maternal-Fetal Gynea • Spinal Physiotherapy • Molecular Pathology
+                    Heart Care • Gentle Dental • Women&apos;s Health • Physical Therapy • Fast Lab Tests
                   </p>
                   <div style={{ display: 'flex', gap: '0.5rem', marginTop: '0.5rem' }}>
                     <span style={{ fontSize: '0.75rem', padding: '0.3rem 0.65rem', borderRadius: 6, background: 'rgba(255,255,255,0.1)' }}>
-                      ISO 15189 Lab
+                      Verified Specialists
                     </span>
                     <span style={{ fontSize: '0.75rem', padding: '0.3rem 0.65rem', borderRadius: 6, background: 'rgba(255,255,255,0.1)' }}>
-                      24/7 Acute Triage
+                      Open 24/7
                     </span>
                   </div>
                 </div>
@@ -145,8 +145,8 @@ export function HomeClientWrapper({
                   <Award size={20} />
                 </div>
                 <div>
-                  <div className={styles.floatingCardTitle}>Board-Certified Professors</div>
-                  <div className={styles.floatingCardSub}>UK Royal College &amp; American Fellows</div>
+                  <div className={styles.floatingCardTitle}>Trusted Specialists</div>
+                  <div className={styles.floatingCardSub}>Experienced &amp; caring doctors</div>
                 </div>
               </div>
             </motion.div>
@@ -172,12 +172,12 @@ export function HomeClientWrapper({
                 value={selectedDept}
                 onChange={(e) => setSelectedDept(e.target.value)}
               >
-                <option value="cardiology">Cardiology &amp; Heart Center</option>
-                <option value="dental">Dental &amp; Guided 3D Implants</option>
-                <option value="gynea">Obstetrics &amp; Gynecology</option>
-                <option value="physiotherapy">Physiotherapy &amp; Spine Center</option>
-                <option value="labs">Molecular Diagnostics (Roche)</option>
-                <option value="family-phy">Internal &amp; Family Medicine</option>
+                <option value="cardiology">Heart Care &amp; Checkups</option>
+                <option value="dental">Dental &amp; Teeth Care</option>
+                <option value="gynea">Women's Health &amp; Maternity</option>
+                <option value="physiotherapy">Physiotherapy &amp; Pain Relief</option>
+                <option value="labs">Diagnostic Lab Tests</option>
+                <option value="family-phy">Family Doctor &amp; Everyday Care</option>
               </select>
             </div>
 
@@ -190,27 +190,27 @@ export function HomeClientWrapper({
                 value={selectedDoctor}
                 onChange={(e) => setSelectedDoctor(e.target.value)}
               >
-                <option value="any">First Available Senior Consultant</option>
-                <option value="dr-tariq">Prof. Dr. Tariq Ashraf (Cardiology)</option>
+                <option value="any">First Available Doctor</option>
+                <option value="dr-tariq">Prof. Dr. Tariq Ashraf (Heart Care)</option>
                 <option value="dr-zeeshan">Dr. Zeeshan Haider (Dental Surgery)</option>
-                <option value="dr-naila">Dr. Naila Zahid (Gynecology)</option>
+                <option value="dr-naila">Dr. Naila Zahid (Women's Health)</option>
                 <option value="dr-bilal">Dr. Bilal Aslam (Physiotherapy)</option>
-                <option value="dr-haroon">Dr. Haroon Rasheed (Internal Medicine)</option>
+                <option value="dr-haroon">Dr. Haroon Rasheed (Family Doctor)</option>
               </select>
             </div>
 
             <div className={styles.bookingField}>
               <label className={styles.fieldLabel}>
-                <Clock size={13} /> Shift Window
+                <Clock size={13} /> Time of Day
               </label>
               <select 
                 className={styles.fieldSelect}
                 value={selectedShift}
                 onChange={(e) => setSelectedShift(e.target.value)}
               >
-                <option value="morning">Morning OPD (8:30 AM – 1:00 PM)</option>
-                <option value="afternoon">Afternoon Specialized (1:30 PM – 5:30 PM)</option>
-                <option value="evening">Evening Executive (6:00 PM – 9:00 PM)</option>
+                <option value="morning">Morning (8:30 AM – 1:00 PM)</option>
+                <option value="afternoon">Afternoon (1:30 PM – 5:30 PM)</option>
+                <option value="evening">Evening (6:00 PM – 9:00 PM)</option>
               </select>
             </div>
 
@@ -221,7 +221,7 @@ export function HomeClientWrapper({
                 style={{ padding: '0.85rem 1.75rem', width: '100%' }}
               >
                 <Calendar size={16} />
-                <span>Check Live Calendar</span>
+                <span>Book Appointment</span>
               </Link>
             </div>
           </motion.div>
@@ -232,10 +232,10 @@ export function HomeClientWrapper({
       <section id="departments" className="section">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Clinical Centers of Excellence</span>
-            <h2 className="section-title">Six Specialized Hospital Departments</h2>
+            <span className="section-tag">Our Medical Services</span>
+            <h2 className="section-title">Specialized Care for Every Family Member</h2>
             <p className="section-subtitle">
-              Featuring European surgical instrumentation, non-invasive imaging, and multidisciplinary treatment boards to resolve complex clinical presentations.
+              Experienced doctors, gentle treatments, and modern diagnostic technology designed to help you feel your best.
             </p>
           </div>
 
@@ -312,10 +312,10 @@ export function HomeClientWrapper({
       <section id="doctors" className="section">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Distinguished Faculty</span>
-            <h2 className="section-title">Consultant Specialty Board</h2>
+            <span className="section-tag">Our Specialists</span>
+            <h2 className="section-title">Meet Our Experienced Doctors</h2>
             <p className="section-subtitle">
-              Our clinical chairs hold fellowships from the Royal Colleges (UK), American Colleges, and prestigious international surgical institutions.
+              Friendly, highly qualified doctors across heart health, dental care, women's wellness, physical therapy, and everyday family medicine.
             </p>
           </div>
 
@@ -364,10 +364,10 @@ export function HomeClientWrapper({
       <section id="reviews" className="section" style={{ background: 'var(--bg-subtle)' }}>
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Clinical Quality &amp; Trust</span>
-            <h2 className="section-title">Verified Patient Outcomes</h2>
+            <span className="section-tag">Patient Stories</span>
+            <h2 className="section-title">Real Reviews from Happy Patients</h2>
             <p className="section-subtitle">
-              Over 1,890+ verified patient records testifying to rapid diagnosis, minimally invasive recoveries, and clinical dedication.
+              Over 1,890+ verified patients share their experiences with our caring doctors and fast diagnostic services.
             </p>
           </div>
 
@@ -407,10 +407,10 @@ export function HomeClientWrapper({
       <section id="faq" className="section">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Hospital Guidelines</span>
+            <span className="section-tag">Help &amp; Information</span>
             <h2 className="section-title">Frequently Asked Questions</h2>
             <p className="section-subtitle">
-              Details on doorstep sample dispatch, emergency admissions, and cashless corporate insurance panels.
+              Clear answers on home lab blood tests, same-day doctor visits, and insurance coverage.
             </p>
           </div>
 
@@ -464,20 +464,20 @@ export function HomeClientWrapper({
           >
             <span className={styles.visualPill} style={{ marginBottom: '1rem' }}>
               <ShieldCheck size={14} color="#38bdf8" />
-              Advanced Hospital Facilities
+              Caring &amp; Modern Clinic
             </span>
-            <h2 className={styles.vipTitle}>World-Class Clinical Precision When You Need It Most.</h2>
+            <h2 className={styles.vipTitle}>Quality Healthcare When You Need It Most.</h2>
             <p className={styles.vipSub}>
-              Consult with board-certified professors or dispatch our certified phlebotomy fleet to your doorstep across Karachi and Lahore today.
+              Book an appointment with experienced doctors or have accurate lab blood tests collected safely right at your doorstep today.
             </p>
             <div className={styles.vipActions}>
               <Link href="/booking" className="btn-primary" style={{ background: '#0284c7' }}>
                 <Calendar size={17} />
-                <span>Reserve Specialist Consultation</span>
+                <span>Book Doctor Appointment</span>
               </Link>
               <a href="tel:+922135298899" className="btn-secondary" style={{ background: 'transparent', color: '#ffffff', borderColor: 'rgba(255,255,255,0.3)' }}>
                 <Phone size={16} />
-                <span>Emergency Hotline: (021) 3529-8899</span>
+                <span>Emergency Help: (021) 3529-8899</span>
               </a>
             </div>
           </motion.div>

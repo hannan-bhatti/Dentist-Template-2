@@ -33,10 +33,10 @@ export function LiveEmergencyTicker() {
               <span className={styles.radarPing} />
               <span className={styles.radarDot} />
             </span>
-            <span className={styles.erBadge}>24/7 ER ACTIVE</span>
-            <span><strong>Apex Campus:</strong> Acute Triage Ready</span>
+            <span className={styles.erBadge}>Open 24/7</span>
+            <span><strong>Main Campus:</strong> Urgent Care Ready • Walk-ins Welcome</span>
             <span className={styles.divider}>•</span>
-            <span className={styles.waitTimeBadge}>OPD Wait: &lt; 5 Mins</span>
+            <span className={styles.waitTimeBadge}>Wait Time: &lt; 5 Mins</span>
             {timeString && (
               <>
                 <span className={styles.divider}>•</span>
@@ -50,11 +50,11 @@ export function LiveEmergencyTicker() {
 
           <div className={styles.statusRight}>
             <span>
-              On-Duty Cardiology Lead: <strong>Prof. Dr. Tariq Ashraf</strong>
+              On-Duty Doctor: <strong>Prof. Dr. Tariq Ashraf</strong>
             </span>
             <span className={styles.divider}>•</span>
             <Link href="/booking" className={styles.priorityLink}>
-              <span>Reserve Priority OPD Slot</span>
+              <span>Book Same-Day Visit</span>
               <ArrowRight size={13} />
             </Link>
           </div>

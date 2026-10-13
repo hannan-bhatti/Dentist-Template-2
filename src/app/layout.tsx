@@ -30,20 +30,20 @@ export default function RootLayout({
             </Link>
 
             <nav className="nav-links">
-              <Link href="/#departments" className="nav-link">Departments</Link>
-              <Link href="/#labs-dispatch" className="nav-link">Home Lab Dispatch</Link>
-              <Link href="/#cardio-screener" className="nav-link">Cardio Screener</Link>
-              <Link href="/#doctors" className="nav-link">Specialists</Link>
-              <Link href="/services" className="nav-link">Clinical Menu</Link>
-              <Link href="/#reviews" className="nav-link">Outcomes</Link>
+              <Link href="/#departments" className="nav-link">Specialties</Link>
+              <Link href="/#labs-dispatch" className="nav-link">Lab Tests</Link>
+              <Link href="/#cardio-screener" className="nav-link">Heart Check</Link>
+              <Link href="/#doctors" className="nav-link">Our Doctors</Link>
+              <Link href="/services" className="nav-link">All Treatments</Link>
+              <Link href="/#reviews" className="nav-link">Reviews</Link>
             </nav>
 
             <div className="nav-actions">
               <a href="tel:+922135298800" className="header-phone">
-                <Phone size={16} color="var(--primary)" style={{ flexShrink: 0 }} />
+                <Phone size={15} color="var(--primary)" style={{ flexShrink: 0 }} />
                 <span>(021) 3529-8800</span>
               </a>
-              <Link href="/booking" className="btn-primary" style={{ padding: '0.65rem 1.45rem', fontSize: '0.875rem' }}>
+              <Link href="/booking" className="btn-primary" style={{ padding: '0.65rem 1.35rem', fontSize: '0.875rem' }}>
                 <Calendar size={15} style={{ flexShrink: 0 }} />
                 <span>Book Appointment</span>
               </Link>

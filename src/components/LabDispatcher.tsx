@@ -23,11 +23,11 @@ export function LabDispatcher() {
       <div className={styles.dispatcherHeader}>
         <span className="section-tag">
           <Microscope size={14} style={{ display: 'inline', marginRight: 4 }} />
-          Automated Molecular Diagnostics
+          Fast &amp; Accurate Lab Tests
         </span>
-        <h2 className="section-title">Diagnostic Lab Catalog &amp; Home Phlebotomy Dispatch</h2>
+        <h2 className="section-title">Order Lab Tests: At Our Clinic or at Home</h2>
         <p className="section-subtitle">
-          Select your diagnostic blood battery. Choose between walk-in processing at our central campus or rapid 90-minute doorstep sample collection with sterile cold-chain transport.
+          Select a test package below. Walk into our clinic anytime or have a polite technician collect your blood sample at home with results delivered to your phone in 2–4 hours.
         </p>
       </div>
 
