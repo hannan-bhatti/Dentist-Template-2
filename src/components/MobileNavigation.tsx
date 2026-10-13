@@ -112,10 +112,10 @@ export function MobileNavigation() {
                     href="https://wa.me/923007788800" 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="btn-secondary" 
-                    style={{ width: '100%', justifyContent: 'center', color: '#16a34a' }}
+                    className="btn-whatsapp" 
+                    style={{ width: '100%', justifyContent: 'center' }}
                   >
-                    <MessageCircle size={16} />
+                    <MessageCircle size={17} color="#ffffff" />
                     <span>WhatsApp Emergency Desk</span>
                   </a>
                 </div>

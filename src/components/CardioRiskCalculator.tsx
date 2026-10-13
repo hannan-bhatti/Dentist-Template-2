@@ -138,10 +138,10 @@ export function CardioRiskCalculator() {
             href={`https://wa.me/923007788800?text=Hi%20Apex%20Institute,%20I%20completed%20the%20cardiac%20screener%20and%20scored%20in%20the%20${encodeURIComponent(badgeText)}.%20I%20would%20like%20to%20book%20a%20cardiology%20consultation.`}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-secondary"
-            style={{ background: 'transparent', color: '#ffffff', borderColor: 'rgba(255,255,255,0.3)', justifyContent: 'center' }}
+            className="btn-whatsapp-outline"
+            style={{ justifyContent: 'center' }}
           >
-            <MessageCircle size={15} color="#22c55e" />
+            <MessageCircle size={16} color="#25d366" />
             <span>WhatsApp Care Triage</span>
           </a>
         </div>

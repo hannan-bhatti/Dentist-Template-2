@@ -123,7 +123,7 @@ export function HomeClientWrapper({
                     <Activity size={13} />
                     Modern Medical Center
                   </span>
-                  <h3 style={{ fontSize: '1.75rem', lineHeight: 1.3 }}>
+                  <h3 style={{ fontSize: '1.75rem', lineHeight: 1.3, color: '#ffffff' }}>
                     All Your Healthcare Needs in One Friendly Place
                   </h3>
                   <p style={{ fontSize: '0.88rem', color: '#94a3b8', maxWidth: 360 }}>
@@ -475,9 +475,9 @@ export function HomeClientWrapper({
                 <Calendar size={17} />
                 <span>Book Doctor Appointment</span>
               </Link>
-              <a href="tel:+922135298899" className="btn-secondary" style={{ background: 'transparent', color: '#ffffff', borderColor: 'rgba(255,255,255,0.3)' }}>
-                <Phone size={16} />
-                <span>Emergency Help: (021) 3529-8899</span>
+              <a href="tel:+922135298899" className="btn-secondary" style={{ background: 'rgba(255,255,255,0.08)', color: '#ffffff', borderColor: 'rgba(255,255,255,0.35)' }}>
+                <Phone size={16} color="#ffffff" />
+                <span style={{ color: '#ffffff' }}>Emergency Help: (021) 3529-8899</span>
               </a>
             </div>
           </motion.div>

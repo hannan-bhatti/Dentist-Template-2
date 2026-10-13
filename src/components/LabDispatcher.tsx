@@ -115,10 +115,10 @@ export function LabDispatcher() {
             href={`https://wa.me/923007788800?text=${whatsappMsg}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary"
+            className="btn-whatsapp"
             style={{ width: '100%', justifyContent: 'center', marginTop: dispatchMode === 'home' ? 0 : '1.5rem' }}
           >
-            <MessageCircle size={16} />
+            <MessageCircle size={17} color="#ffffff" />
             <span>{dispatchMode === 'home' ? 'Dispatch Phlebotomist via WhatsApp' : 'Reserve Walk-In via WhatsApp'}</span>
           </a>
 
