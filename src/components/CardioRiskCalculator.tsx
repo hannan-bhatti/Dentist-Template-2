@@ -128,20 +128,20 @@ export function CardioRiskCalculator() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', minWidth: 230 }}>
           <Link 
             href="/booking?department=cardiology" 
-            className="btn-primary" 
-            style={{ background: '#ffffff', color: '#0f172a', justifyContent: 'center' }}
+            className="btn-light" 
+            style={{ width: '100%', justifyContent: 'center' }}
           >
-            <Calendar size={15} />
-            <span>Consult Dr. Tariq Ashraf</span>
+            <Calendar size={16} />
+            <span>Consult Heart Specialist</span>
           </Link>
           <a 
-            href={`https://wa.me/923007788800?text=Hi%20Apex%20Institute,%20I%20completed%20the%20cardiac%20screener%20and%20scored%20in%20the%20${encodeURIComponent(badgeText)}.%20I%20would%20like%20to%20book%20a%20cardiology%20consultation.`}
+            href={`https://wa.me/923007788800?text=Hi%20Apex%20Institute,%20I%20completed%20the%20heart%20screener%20and%20scored%20in%20the%20${encodeURIComponent(badgeText)}.%20I%20would%20like%20to%20book%20a%20cardiology%20consultation.`}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-whatsapp-outline"
-            style={{ justifyContent: 'center' }}
+            className="btn-whatsapp"
+            style={{ width: '100%', justifyContent: 'center' }}
           >
-            <MessageCircle size={16} color="#25d366" />
+            <MessageCircle size={16} color="#ffffff" />
             <span>WhatsApp Care Triage</span>
           </a>
         </div>
